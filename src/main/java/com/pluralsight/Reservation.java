@@ -11,7 +11,7 @@ public class Reservation {
     // constructor
     // (from the goat Ariel)
     // ctor that calls the Room class and creates a room object using its getters inside the ctor
-    // less typing, because Room already knows the same roomType and price of the room per night
+    // less typing because Room already knows the same roomType and price of the room per night
     public Reservation(Room room, int numberOfNights, boolean isWeekend)
     {
         this.roomType = room.getRoomType();

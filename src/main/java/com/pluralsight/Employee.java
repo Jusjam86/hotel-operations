@@ -72,4 +72,10 @@ public class Employee {
     public double getTotalPay(){
         return payRate * hoursWorked;
     }
+
+    // methods
+    public void punchTimeCard(double punchIn, double punchOut) {
+
+        this.hoursWorked +=  punchOut - punchIn;
+    }
 }
