@@ -18,30 +18,18 @@ public class Room {
     }
 
     // getters
-    public String getRoomType() {
-        return roomType;
-    }
+    public String getRoomType() {return roomType;}
 
-    public int getNumberOfBeds() {
-        return numberOfBeds;
-    }
+    public int getNumberOfBeds() {return numberOfBeds;}
 
-    public double getPrice() {
-        return price;
-    }
+    public double getPrice() {return price;}
 
-    public boolean isOccupied() {
-        return isOccupied;
-    }
+    public boolean isOccupied() {return isOccupied;}
 
-    public boolean isDirty() {
-        return isDirty;
-    }
+    public boolean isDirty() {return isDirty;}
 
     // derived getter
-    public boolean isAvailable() {
-        return !isOccupied && !isDirty;
-    }
+    public boolean isAvailable() {return !isOccupied && !isDirty;}
 
     // methods
     public void checkIn(){
@@ -54,8 +42,5 @@ public class Room {
         this.isDirty =  true;
     }
 
-    public void cleanRoom(){
-        this.isDirty = false;
-
-    }
+    public void cleanRoom(){this.isDirty = false;}
 }

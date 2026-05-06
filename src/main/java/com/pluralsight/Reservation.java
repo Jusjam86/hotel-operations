@@ -21,29 +21,19 @@ public class Reservation {
     }
 
     // getters and setters
-    public String getRoomType() {
-        return roomType;
-    }
+    public String getRoomType() {return roomType;}
 
-    public void setRoomType(String roomType) {
-        this.roomType = roomType;
-    }
+    public void setRoomType(String roomType) {this.roomType = roomType;}
 
-    public int getNumberOfNights() {
-        return numberOfNights;
-    }
+    public int getNumberOfNights() {return numberOfNights;}
 
-    public void setNumberOfNights(int numberOfNights) {
-        this.numberOfNights = numberOfNights;
-    }
+    public void setNumberOfNights(int numberOfNights) {this.numberOfNights = numberOfNights;}
 
-    public boolean isWeekend() {
-        return isWeekend;
-    }
+    public boolean isWeekend() {return isWeekend;}
 
-    public void setWeekend(boolean weekend) {
-        isWeekend = weekend;
-    }
+    public void setWeekend(boolean weekend) {isWeekend = weekend;}
+
+    public double getPrice() {return price;}
 
     // derived getter
     public double getReservationTotal()
