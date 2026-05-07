@@ -5,6 +5,10 @@ import java.time.format.DateTimeFormatter;
 
 public class Employee {
 
+    // constants
+    private final double REGULAR_HOURS = 40;
+    private final double OVERTIME_PAY = 1.5;
+
     // variables
     private int employeeId;
     private String name;

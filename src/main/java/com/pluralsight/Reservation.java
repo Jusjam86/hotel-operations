@@ -2,6 +2,11 @@ package com.pluralsight;
 
 public class Reservation {
 
+    // constants
+    private final double KING_PRICE = 139.0;
+    private final double DOUBLE_PRICE = 124.0;
+    private final double WEEKEND_MULTIPLIER = 1.1;
+
     // variables
     private String roomType;
     private int numberOfNights;

@@ -40,14 +40,13 @@ public class Hotel
         public int getBookedBasicRooms() {return bookedBasicRooms;}
 
         // methods
-        public boolean bookRoom(int numberOfRequestedRooms, boolean isSuite)
+        public void bookRoom(int numberOfRequestedRooms, boolean isSuite)
         {if (isSuite)
             {if (numberOfRequestedRooms + bookedSuites <= numberOfSuites)
                 {bookedSuites += numberOfRequestedRooms;}
             }
             else
             {if (numberOfRequestedRooms + bookedBasicRooms <= numberOfBasicRooms);}
-            return true;
         }
 
         // derived getters
