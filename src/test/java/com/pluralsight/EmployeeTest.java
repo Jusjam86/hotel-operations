@@ -13,7 +13,7 @@ class EmployeeTest {
         // act
         employee.punchTimeCard(8, 20); // follows military time, so write it in military time
         //assert
-        assertEquals(12.0, employee.getHoursWorked(), "Employee's hours worked should be 40.0 after using punchTimeCard()");
+        assertEquals(12.0, employee.getHoursWorked(), "Employee's hours worked should be 12.0 after using punchTimeCard()");
     }
 
 }
